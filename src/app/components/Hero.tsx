@@ -1,6 +1,5 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-
-const PORTRAIT_URL = "/src/hero-photo.png";
+import portraitImage from "../../hero-photo.png";
 
 const STACK = [
   "Java",
@@ -296,7 +295,7 @@ export function Hero() {
             }}
           >
             <ImageWithFallback
-              src={PORTRAIT_URL}
+              src={portraitImage}
               alt="Java Backend Engineer — professional portrait"
               style={{
                 width: "100%",
