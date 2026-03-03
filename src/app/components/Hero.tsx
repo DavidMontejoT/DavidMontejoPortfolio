@@ -1,5 +1,6 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import portraitImage from "../../hero-photo.png";
+import cvPDF from "../../David-Montejo-CV.pdf";
 
 const STACK = [
   "Java",
@@ -164,7 +165,9 @@ export function Hero() {
 
             {/* Secondary — border only */}
             <a
-              href="#contact"
+              href={cvPDF}
+              download="David-Montejo-CV.pdf"
+              target="_blank"
               className="text-sm sm:text-base px-4 sm:px-7 py-3 sm:py-3.5 rounded-xl text-slate-900 font-semibold no-underline border border-slate-900/22 transition-all duration-150 inline-block flex-1 sm:flex-none justify-center"
               style={{
                 fontFamily: "Inter, sans-serif",
@@ -187,7 +190,7 @@ export function Hero() {
 
             {/* GitHub ghost */}
             <a
-              href="https://github.com"
+              href="https://github.com/DavidMontejoT"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm sm:text-base px-4 sm:px-5 py-3 sm:py-3.5 rounded-xl text-gray-500 font-medium no-underline border border-black/10 inline-flex items-center gap-2 transition-all duration-150 flex-1 sm:flex-none justify-center"
@@ -211,6 +214,34 @@ export function Hero() {
             >
               <GitHubIcon />
               <span>GitHub</span>
+            </a>
+
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/david-montejo5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm sm:text-base px-4 sm:px-5 py-3 sm:py-3.5 rounded-xl text-gray-500 font-medium no-underline border border-black/10 inline-flex items-center gap-2 transition-all duration-150 flex-1 sm:flex-none justify-center"
+              style={{
+                fontFamily: "Inter, sans-serif",
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLElement).style.color = "#374151";
+                (e.currentTarget as HTMLElement).style.borderColor =
+                  "rgba(0,0,0,0.22)";
+                (e.currentTarget as HTMLElement).style.transform =
+                  "translateY(-2px)";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLElement).style.color = "#6B7280";
+                (e.currentTarget as HTMLElement).style.borderColor =
+                  "rgba(0,0,0,0.1)";
+                (e.currentTarget as HTMLElement).style.transform =
+                  "translateY(0)";
+              }}
+            >
+              <LinkedInIcon />
+              <span>LinkedIn</span>
             </a>
           </div>
 
