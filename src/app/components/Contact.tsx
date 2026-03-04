@@ -40,8 +40,8 @@ export function Contact() {
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 w-full sm:w-auto">
           <ContactLink
-            href="mailto:hello@engineer.dev"
-            label="hello@engineer.dev"
+            href="mailto:davidmontejotorres5@gmail.com"
+            label="davidmontejotorres5@gmail.com"
             icon={<EmailIcon />}
             primary
           />
@@ -68,7 +68,7 @@ export function Contact() {
               color: "#9CA3AF",
             }}
           >
-            Backend Engineer · Node.js · PostgreSQL · REST APIs
+            David Montejo
           </span>
           <span
             style={{
@@ -77,7 +77,7 @@ export function Contact() {
               color: "#9CA3AF",
             }}
           >
-            © {new Date().getFullYear()} · Built with React
+            © 2026 · David Montejo
           </span>
         </div>
       </div>
