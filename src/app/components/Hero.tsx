@@ -121,20 +121,6 @@ export function Hero() {
               </span>{" "}
               and cloud-native architecture.
             </p>
-
-            {/* ── Stack line ── */}
-            <p
-              style={{
-                fontFamily: "Inter, sans-serif",
-                fontWeight: 400,
-                fontSize: "0.78rem",
-                color: "#9CA3AF",
-                letterSpacing: "0.03em",
-                lineHeight: 1.6,
-              }}
-            >
-              {STACK.join(" • ")}
-            </p>
           </div>
 
           {/* ── CTAs ── */}
@@ -240,7 +226,6 @@ export function Hero() {
                   "translateY(0)";
               }}
             >
-              <LinkedInIcon />
               <span>LinkedIn</span>
             </a>
           </div>

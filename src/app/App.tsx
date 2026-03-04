@@ -4,7 +4,6 @@ import { Architecture } from "./components/Architecture";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Philosophy } from "./components/Philosophy";
-import { TechStack } from "./components/TechStack";
 import { CurrentFocus } from "./components/CurrentFocus";
 import { Contact } from "./components/Contact";
 
@@ -57,7 +56,6 @@ export default function App() {
         <Experience />
         <Projects />
         <Philosophy />
-        <TechStack />
         <CurrentFocus />
         <Contact />
       </div>

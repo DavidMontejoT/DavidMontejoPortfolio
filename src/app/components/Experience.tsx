@@ -17,7 +17,7 @@ const experiences = [
     layers: [
       {
         label: "API Layer",
-        color: "#0099FF",
+        color: "#374151",
         items: [
           "REST API — Spring Boot 3.2",
           "Swagger / OpenAPI Docs",
@@ -27,7 +27,7 @@ const experiences = [
       },
       {
         label: "Auth & Security",
-        color: "#6366F1",
+        color: "#374151",
         items: [
           "JWT Authentication",
           "Role-Based Access Control",
@@ -36,7 +36,7 @@ const experiences = [
       },
       {
         label: "Data & Persistence",
-        color: "#10B981",
+        color: "#374151",
         items: [
           "PostgreSQL — normalized schema",
           "JPA Query Optimization",
@@ -46,7 +46,7 @@ const experiences = [
       },
       {
         label: "Integrations & Ops",
-        color: "#F59E0B",
+        color: "#374151",
         items: [
           "External Invoicing Validation API",
           "CI/CD on Render",
@@ -86,7 +86,7 @@ const experiences = [
     layers: [
       {
         label: "Service Mesh",
-        color: "#0099FF",
+        color: "#374151",
         items: [
           "Java Spring Boot Microservices",
           "Golang high-performance services",
@@ -104,7 +104,7 @@ const experiences = [
       },
       {
         label: "Data Layer",
-        color: "#10B981",
+        color: "#374151",
         items: [
           "MongoDB — document store",
           "Redis — distributed cache",
@@ -113,7 +113,7 @@ const experiences = [
       },
       {
         label: "Quality & Leadership",
-        color: "#F59E0B",
+        color: "#374151",
         items: [
           "JUnit 5 + Mockito testing strategy",
           "Code reviews & standards",
@@ -214,7 +214,7 @@ export function Experience() {
                 fontFamily: "Inter, sans-serif",
                 fontWeight: 600,
                 fontSize: "0.82rem",
-                color: "#0099FF",
+                color: "#374151",
                 letterSpacing: "0.04em",
               }}
             >
@@ -297,7 +297,7 @@ function ExperienceCard({
                 style={{
                   fontFamily: "Inter, sans-serif",
                   fontWeight: 600,
-                  color: "#0099FF",
+                  color: "#374151",
                   marginTop: "5px sm:mt-6px",
                   letterSpacing: "0.03em",
                 }}
