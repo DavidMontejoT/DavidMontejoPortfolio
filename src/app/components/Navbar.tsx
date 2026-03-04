@@ -37,15 +37,13 @@ export function Navbar() {
         style={{
           fontFamily: "Inter, sans-serif",
           fontWeight: 800,
-          fontSize: "1.1rem",
+          fontSize: "1.3rem",
           color: "#111827",
           textDecoration: "none",
           letterSpacing: "-0.03em",
         }}
       >
-        <span style={{ color: "#0099FF" }}>&lt;</span>
-        BE
-        <span style={{ color: "#0099FF" }}>/&gt;</span>
+        David Montejo
       </a>
 
       {/* Desktop links */}
